@@ -1,0 +1,46 @@
+name: inovola_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.3.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: any
+  provider: ^4.0.5+1
+  google_fonts: 2.2.0
+  animated_splash_screen: ^1.1.0
+  flutter_swiper: any
+  dio: ^4.0.4
+  intl: ^0.17.0
+  flutter_svg: ^0.22.0
+  flutter_launcher_icons: any
+  responsive_builder: ^0.4.1
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  image_path: "assets/images/inovola.png"
+  android: true
+  ios: true
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+  fonts:
+    - family: The-Sans-Plain
+      fonts:
+        - asset: assets/fonts/The-Sans-Plain.otf
